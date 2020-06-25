@@ -1,0 +1,110 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 23}, {179, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "名前",
+          "font_size" : 17,
+          "frame" : "{{41, 122}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "6D69D7A1-43B0-4BC8-B6EA-70AFC8232D24",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "inventName",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 63}, {282, 82}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "mode" : 1,
+          "frame" : "{{-19, 30}, {320, 216}}",
+          "name" : "datepicker",
+          "class" : "DatePicker",
+          "uuid" : "039F2CCA-D551-4632-8688-CCBE990A0196"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 227}, {332, 137}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "row_height" : 44,
+          "frame" : "{{54, 92}, {200, 200}}",
+          "uuid" : "472C1CB6-E88A-4845-B297-B597FC523E6E",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "name" : "tableview1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 372}, {318, 141}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "row_height" : 44,
+          "frame" : "{{75, 176}, {200, 200}}",
+          "uuid" : "B1416D0F-BCEC-4FAC-B324-05D24D3C1FCE",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "name" : "tableview2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{20, 153}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "onBtnAdd",
+          "frame" : "{{135, 260}, {80, 32}}",
+          "title" : "追加",
+          "uuid" : "9B5D5982-1A18-419C-A6E7-23956F89067A",
+          "class" : "Button",
+          "name" : "btnAdd",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {350, 551}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
